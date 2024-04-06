@@ -165,8 +165,7 @@ header {
     font-size: 100px;
 }
 @media  (max-width: 420px) {
-      
-         
+           
     .center img {
         display: none;
         background-image: none;
@@ -175,35 +174,52 @@ header {
  header {
     width: 100%;
  }
+
  main {
     width: 100%;
  }
+
  footer  a {
     width: 100%;
  }
+
  .center img{
     width: 100%;
     grid-template-columns: 100%;
  }
+
  .container nav ul{
     display: block;
     text-align: center;
     margin: 0;
     padding: 0;
  }
+
  .container nav ul li {
     width: 100%;
  }
+
  .container nav {
     display: none;
     
  }
- .menu a{
-    display: block;
- }
+ 
+  .container .menu{
+    border: 1px solid #000000;
+    padding: 10px 15px;
+    color: rgb(235, 18, 18);
+    float: right;
+    margin-top: 15px;
+    border-radius: 5px;
+   
  
 }
 
+
+
+}
+      
+  
    
 
  
