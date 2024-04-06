@@ -6,6 +6,11 @@
 }
 
 
+    
+   
+    
+
+
 body{
     color: rgb(10, 9, 9);
     background-color: rgb(255, 255, 255);
@@ -159,6 +164,53 @@ header {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100px;
 }
+@media  (max-width: 420px) {
+      
+         
+    .center img {
+        display: none;
+        background-image: none;
+
+ }
+ header {
+    width: 100%;
+ }
+ main {
+    width: 100%;
+ }
+ footer  a {
+    width: 100%;
+ }
+ .center img{
+    width: 100%;
+    grid-template-columns: 100%;
+ }
+ .container nav ul{
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+ }
+ .container nav ul li {
+    width: 100%;
+ }
+ .container nav {
+    display: none;
+    
+ }
+ .menu a{
+    display: block;
+ }
+ 
+}
+
+   
+
+ 
+    
+
+    
+
     
 
 
