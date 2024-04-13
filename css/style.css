@@ -1,0 +1,183 @@
+/* css reset - zerar as margens */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 18px Inter, Arial;
+    color: #333;
+    padding-top: 100px;
+}
+
+.header {
+    background: #FFF;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 0 10px #CCC;
+    padding: 10px;
+    box-sizing: border-box; /* para não aumentar o tamanho do padding */
+}
+
+.header .header-logo img {
+    width: 300px;
+}
+
+.header .header-menu {
+    /* tamanho, tipo, cor */
+    border: 1px solid #333;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    float: right; 
+    margin-top: 25px;
+    border-radius: 5px;
+}
+
+.header .header-nav ul li {
+    margin: 15px;
+}
+
+.header .header-nav ul li a {
+    text-decoration: none;
+    color: #CCC;
+}
+
+.header .header-nav ul {
+    list-style: none;
+}
+
+.header .header-nav {
+    display: none;
+}
+
+.show {
+    display: block !important;
+}
+
+.banner {
+    /* imagem de fundo */
+    background: url(../images/top.jpg) bottom;
+    /* altura mínima */
+    min-height: 500px;
+}
+
+.banner h2, .banner p {
+    color: darkorange;
+    line-height: 35px;
+}
+
+.banner .flex {
+    text-align: center;
+    padding-top: 130px;
+}
+
+.desktop {
+    display: none;
+}
+
+.btn {
+    background-color: darkorange;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.flex-carros, .flex-footer {
+    display: flex;
+    /* quebrar colunas em linhas */
+    flex-wrap: wrap;
+    /* centralizar as colunas */
+    justify-content: center;
+}
+
+.footer {
+    background-color: #F1F1F1;
+    padding: 15px 0;
+}
+
+.flex-footer .flex-col {
+    width: 90%;
+    text-align: center;
+}
+
+.flex-footer .midias a {
+    text-decoration: none;
+    color: #F00;
+    line-height: 30px;
+    margin: 20px;
+    font-size: 20px;
+}
+
+/* coluna do flex ficar maior no dispositivom móvel */
+.flex-carros .flex-col {
+    width: 90%;
+    box-shadow: 0 0 10px #CCC;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+.flex-carros .flex-col p {
+    /* aumentar o tamanho das linhas */
+    line-height: 50px;
+}
+
+.flex-carros .flex-col img {
+    width: 80%;
+}
+
+.img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #CCC;
+    margin: 20px 0;
+}
+
+/* regras para tamanhos de telas diferentes */
+@media (min-width: 460px) {
+
+    .flex-carros .flex-col {
+        width: 22%;
+    }
+
+    .flex-footer .flex-col {
+        width: 45%;
+    }
+
+    /* esconder o botão hamburger */
+    .header .header-menu {
+        display: none;
+    }
+
+    /* mostrar o menu normal */
+    .header .header-nav, .desktop {
+        display: block;
+    }
+
+    /* jogar o menu para a direita */
+    .header .header-nav {
+        float: right;
+        margin-top: 15px;
+    }
+
+    /* aparecer um item ao lado do outro */
+    .header .header-nav ul li {
+        display: inline-block;
+    }
+
+    .flex {
+        text-align: left;
+        display: flex;
+        width: 1000px;
+        margin: auto;
+    }
+
+    .container {
+        width: 1000px;
+        margin: 50px auto;
+    }
+}
