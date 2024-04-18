@@ -16,11 +16,13 @@
     
 </head>
 <body>
+    <a href="javascript:mostrarmenu()" class="menu1">
+        <i class="fa-solid fa-bars"></i>
+    </a>
     
     
     <div class="container">
-        <a href="jogos.html" class="menu">
-            
+        
         </a>
         
 
@@ -104,8 +106,9 @@
                     <ul>
                         <li>
                             <a href="games/index.html"target="_blank" rel="noopener noreferrer">
-                                <iframe width="30%" height="430px" src="games/index.html"></iframe>
-                                <p>clique aqui</p>
+                                <iframe width="30%" height="430px" src="games/index.html"></iframe><br>
+                               
+                               <button> <p><strong>Clique aqui</strong></p></button>
                             
 
                             </a>
@@ -113,18 +116,13 @@
                     </ul>
                 </nav>
                
-                
-                
-            
-                            
-              
-                
-                    
-                    
-
-                
-    
+                          
+                  
+                   
+                   
             </div>
+
+            
             
         </main>
     
@@ -152,6 +150,13 @@
         </footer>
 
     </div>
+    <script>
+
+        function mostrarmenu(){
+            document.querySelector(".conteiner nav").classList.toggle("mostrar");
+
+        }
+    </script>
 
 </body>
 </html>

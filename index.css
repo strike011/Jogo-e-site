@@ -5,7 +5,37 @@
 
 }
 
+.box button p{
+    font-size: 45px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #2397da;
+    color: rgb(255, 253, 253);
+    
 
+  
+}
+button{
+    display: flex;
+    
+}
+button :hover{
+    color: rgb(48, 48, 238);
+}
+
+.box p{
+    text-align: center;
+    justify-content: center;
+    
+    
+    
+}
+
+.box a {
+    text-transform: none;
+    text-decoration: none;
+    color: red;
+}
  
    
     
@@ -105,7 +135,7 @@ footer  :hover{
 }
 .box  iframe{
     display: flex;
-  justify-content: center;
+    justify-content: center;
     border-radius: 15px;
     width: 90%;
     height: 500px;
@@ -197,49 +227,69 @@ header {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
 }
+.mostrar{
+    display:block;
+}
+.movel{
+    display: none;
+}
 @media  (max-width: 420px) {
            
     .center img {
         display: none;
-        background-image: none;
+       
 
- }
- header {
-    width: 420px;
- }
+}
+header {
+    width: 100%
+}
 
- main {
-    width: 420px;
- }
+main {
+    width: 100%;
+}
 
- footer  a {
-    width: 420px;
- }
+footer  a {
+    width: 100%;
+}
+footer{
+    width: 60%;
+}
 
- .center img{
+.center img{
     width: 100%;
     grid-template-columns: 100%;
- }
+}
+ 
 
- .container nav ul{
+.container nav ul{
     display: block;
     text-align: center;
     margin: 0;
     padding: 0;
- }
+}
 
- .container nav ul li {
+.container nav ul  {
+   display: block;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+}
+.container nav{
+    display: none;
+}
+
+.container nav ul li{
     width: 100%;
- }
+}
 
- .container nav img{
+.container nav img{
     display:none; 
     
- }
- .container  {
+}
+.container  {
     width: 100%;
 
- }
+}
  
   .container .menu {
     border: 1px solid #000000;
@@ -252,7 +302,22 @@ header {
  
 }
 .box iframe {
-    max-width: 80%;
+    max-width: 100%;
+}
+body{
+    width: 100%;
+}
+.menu1{
+    display: block;
+    border: 1px solid #030303;
+    padding: 10px 15px;
+    color: rgb(0, 0, 0);
+    float: right;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.movel{
+    display: block;
 }
 
 
