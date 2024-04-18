@@ -58,20 +58,18 @@ footer {
     width: 40px;
     height: 40px;
     font-size: 25px;
+    display: flex;
+    justify-content: center;
+   
     
     
    
 
 }
-footer{
-    display: flex;
-    justify-content: center;
-    background-color: #e4e4d9;
-    margin-bottom: 
-    
 
     
-}
+    
+
 footer a {
     margin: 20px;
     text-align: center;
