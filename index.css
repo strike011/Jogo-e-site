@@ -234,9 +234,13 @@ header {
     width: 100%;
  }
 
- .container nav {
-    display: none;
+ .container nav img{
+    display:none; 
     
+ }
+ .container  {
+    width: 100%;
+
  }
  
   .container .menu {
@@ -248,6 +252,9 @@ header {
     border-radius: 5px;
    
  
+}
+.box iframe {
+    max-width: 80%;
 }
 
 
