@@ -6,9 +6,17 @@
 }
 h1{
     padding-top: 50px;
+    text-align: center;
+    background-color: rgb(19, 180, 19);
+    color: white;
+    
 }
+
 body{
   background-color: azure;
+}
+p{
+    font-size: 17px;
 }
 
 .container ul{
